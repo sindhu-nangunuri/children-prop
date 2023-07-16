@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 38px;
+}
+.child-container {
+  width: 40%;
+  border: 1px solid #475569;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.details-container {
+  display: flex;
+  justify-content: space-around;
+}
+.success-icon {
+  margin-top: 30px;
+  margin-left: 15px;
+  color: #2dca73;
+  font-size: 23px;
+}
+.text-details {
+  margin-left: 25px;
+}
+.success-alert {
+  color: #2dca73;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.description {
+  color: #475569;
+  font-family: 'Roboto';
+}
+.error-icon {
+  color: #ff0b37;
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 23px;
+}
+.error-alert {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.warning-icon {
+  color: #ffb800;
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 23px;
+}
+.warning-alert {
+  color: #ffb800;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.info-icon {
+  color: #0f81e0;
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 23px;
+}
+.info-alert {
+  color: #0f81e0;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.cross-icon {
+  margin-top: 40px;
+}
